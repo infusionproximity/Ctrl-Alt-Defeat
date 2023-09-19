@@ -1,12 +1,12 @@
 class Product:
-    def _init_(self, name, category, price, stock):
+    def __init__(self, name, category, price, stock):
         self.name = name
         self.category = category
         self.price = price
         self.stock = stock
 
 class Marketplace:
-    def _init_(self):
+    def __init__(self):
         self.products = []
 
     def add_product(self, product):
@@ -63,3 +63,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+print("hello")
